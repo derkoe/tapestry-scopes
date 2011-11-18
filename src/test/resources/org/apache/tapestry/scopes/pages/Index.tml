@@ -3,9 +3,8 @@
 	xmlns:p="tapestry:parameter">
 	<body>
 		<h1>Tapestry Scopes Test App</h1>
-		<div>Current counter value:<span id="counter">${counter}</span></div>
+		<div>Current counter value: <span id="counter">${counter}</span></div>
 		<div><a href="#" t:type="eventlink" event="increase">Increase</a></div>
 		<div><a href="#" t:type="eventlink" event="decrease">Decrease</a></div>
 	</body>
 </html>
-
