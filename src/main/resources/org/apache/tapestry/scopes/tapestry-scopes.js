@@ -1,0 +1,4 @@
+Tapestry.Scopes.init = function()
+{
+	
+};
