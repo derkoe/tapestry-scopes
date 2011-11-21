@@ -32,7 +32,7 @@ public class ScopesModule
 
                 renderSupport.importJavaScriptLibrary(validators);
 
-                renderSupport.addInitializerCall("Scopes.init", request.getContextPath());
+                renderSupport.addInitializerCall("scopesInit", request.getContextPath());
 
                 renderer.renderMarkup(writer);
             }
